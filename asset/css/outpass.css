@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+body
+{
+    background-color: #222831;
+    font-family: "Montserrat";
+} 
+
+
+header{
+  color:#00adb5;
+  font-size: 20px;
+  font-family: "Montserrat";
+  padding:5px 50px;
+  margin-top:10px;
+  background-color: #393e46;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Montserrat";
+}
+
+.box{
+    padding:50px 50px 0px 0px;
+    font-family: "Montserrat";
+}
+
+label{
+    font-size: 25px;
+    color:#00adb5;
+    font-family: "Montserrat";
+}
+
+#in,
+#out{
+    padding: 8px;
+    margin: 20px 0px;
+    font-size: 20px;
+    background-color: #eeeeee;
+    font-family: "Montserrat";
+    
+}
+
+
+.reason-class{
+    padding:10px 50px 0px 0px;
+    font-family: "Montserrat";
+}
+
+textarea{
+    margin: 10px;
+    width: 50%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #dae5e6;
+    font-size: 16px;
+}
+
+.submit-class{
+    padding: 0px 0px 0px 300px;
+    font-family: "Montserrat";
+}
+
+.button-class{
+    padding:12px 60px;
+    font-family: "Montserrat";
+    border: bold;
+    color: #393e46;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #00adb5;
+    border-radius: 10px;
+}
+
+.approval{
+    display: inline-block;
+    padding: 50px 0px;
+    font-family: "Montserrat";
+    font-size: 23px;
+}
+
+td{
+    padding: 5px;
+}
+
+.heading {
+    color: #eeeeee;
+}
+
+.data {
+    color : #00adb5;
+}
+
+.delete-button {
+    padding:4px 10px;
+    font-family: "Montserrat";
+    border: bold;
+    color: #393e46;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #00adb5;
+    border-radius: 10px;
+}
+
+table, td{
+    border: 2px solid white;
+    border-collapse: collapse;
+}

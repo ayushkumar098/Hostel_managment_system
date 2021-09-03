@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+body{
+    background-color: #222831;
+    font-family: "Montserrat";
+}
+
+#abc{
+    display: inline-table;
+    margin: 150px;
+}
+
+img{
+    width: 600px;
+    height: 400px; 
+    border-style: groove;
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+    color: #00adb5;
+}
+

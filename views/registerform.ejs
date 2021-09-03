@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/signup.css">
+    <title>Registration</title>
+</head>
+<body>
+    <body>
+
+        <form action="/fullregistration" method="POST">
+        
+          <h1>Sign Up</h1>
+          
+          <fieldset>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username">
+            
+            <label for="college">College Name</label>
+            <input type="text" id="college" name="college_name">
+            
+            <label for="reg">Regestration Number</label>
+            <input type="text" id="reg" name="register_number">
+
+            <label for="prog">Program</label>
+            <select id="prog" name="program">
+              <option value="B.Tech">B.Tech</option>
+              <option value="B.Sc">B.Sc</option>
+              <option value="BBA">BBA</option>
+              <option value="M.Tech">M.Tech</option>
+              <option value="M.Sc">M.Sc</option>
+              <option value="M.B.A">M.B.A</option>
+            </select>
+
+            <label for="dept">Department</label>
+            <input type="text" id="dept" name="department">
+
+            <label for="sem">Semester</label>
+            <select id="sem" name="semester">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+            </select>
+            
+
+            <label for="mobile">Mobile Number</label>
+            <input type="text" id="mobile" name="mobile">
+
+            <label for="hostel">Hostel Name</label>
+            <input type="text" id="hostel" name="hostel">
+
+            <label for="room">Room Number</label>
+            <input type="text" id="room" name="room_no">
+          </fieldset>
+          <button type="submit">Sign Up</button>
+        </form>        
+      </body>
+  </html>
+</body>
+</html>
